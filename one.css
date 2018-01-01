@@ -208,6 +208,7 @@ span{
     -ms-transform: rotate(600deg);
 	-webkit-transform: rotate(600deg);
     font-size: 0px;
+    margin-left: 100%;
   }
 
   to {
@@ -215,5 +216,6 @@ span{
     -ms-transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
     font-size: 50px;
+    margin-left: 0%;
   }
 }
