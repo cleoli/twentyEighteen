@@ -1,0 +1,219 @@
+*{
+    //border: solid black 1px;
+    margin: 0px;
+}
+body{
+    min-width: 800px;
+    font-family: 'Berkshire Swash', cursive;
+}
+#tO{
+    position: absolute;
+    font-size: 100px;
+    top: 50px;
+    left: 10%;
+    color: red;
+}
+#eT{
+    position: absolute;
+    font-size: 100px;
+    top: 50px;
+    left: 80%;
+    color: red;
+}
+h1{
+    animation-duration: 1s;
+    animation-name: rotateD;
+    animation-direction: alternate;
+    animation-iteration-count: 3;
+    font-size: 50px;
+}
+#proB{
+    width: 800px;
+    margin: auto;
+}
+header{
+    background-color: red;
+    height: 30%;
+}
+#hR{
+    border-radius:50%;
+    border: white 20px solid;
+    height: 100%;
+    width: 30vh;
+    margin: auto;
+    position: relative;
+    top: -17px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    //box-shadow: black 0px 0px 2px 2px;
+
+}
+#hR h1{
+    margin: auto;
+    position: relative;
+    top: 35%;
+}
+#problem2{
+    width: 500px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    //border-bottom: solid 30px yellow;
+}
+
+#problem{
+    margin-top: 20px;
+    height: 125px;
+}
+#pBu{
+    width: 500px;
+    margin: auto;
+}
+#choices1{
+    margin: auto;
+    width: 0px;
+}
+#choices{
+    border-bottom: #d0d014 15px solid;
+}
+#chE{
+    width: 10%;
+    position: relative;
+    top: -40%;
+    display: inline-block;
+    color: green;
+}
+button{
+    width: 40%;
+    display: inline-block;
+    //border: none;
+    padding: 20px;
+    margin-left: 15%;
+    background-color: #b307b0a1;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    width: 40%;
+    display: inline-block;
+    color: #f50ba4;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+img{
+    width: 120px;
+    height: 120px;
+    //width: 90px;
+    //height: 100px;
+}
+span{
+    position: relative;
+    top: -40%;
+    font-size: 50px;
+    padding: 0px 10px;
+}
+#ques{
+    font-size: 100px;
+    top: -25%;
+}
+#rat{
+    background: url('twelve3.jpg') -40px -20px;
+    background: url('twelve2.jpg') 0px 0px;
+}
+#ox{
+    //background: url('twelve3.jpg') -130px -20px;
+    background: url('twelve2.jpg') -110px -10px;
+}
+#tiger{
+    //background: url('twelve3.jpg') -200px -20px;
+    background: url('twelve2.jpg') -220px -10px;
+}
+#rabbit{
+    //background: url('twelve3.jpg') -295px -20px;
+    background: url('twelve2.jpg') -320px -5px;
+}
+#dragon{
+    //background: url('twelve3.jpg') -35px -120px;
+    background: url('twelve2.jpg') 0px -130px;
+    //animation-duration: 5s;
+    //animation-name: slidein;
+}
+#snake{
+    //background: url('twelve3.jpg') -130px -120px;
+    background: url('twelve2.jpg') -110px -130px;
+}
+#horse{
+    //background: url('twelve3.jpg') -215px -120px;
+    background: url('twelve2.jpg') -215px -130px;
+}
+#goat{
+    //background: url('twelve3.jpg') -295px -120px;
+    background: url('twelve2.jpg') -320px -130px;
+}
+#monkey{
+    //background: url('twelve3.jpg') -50px -230px;
+    background: url('twelve2.jpg') 5px -260px;
+}
+#rooster{
+    //background: url('twelve3.jpg') -130px -230px;
+    background: url('twelve2.jpg') -100px -260px;
+}
+#dog{
+    //background: url('twelve3.jpg') -215px -230px;
+    background: url('twelve2.jpg') -215px -260px;
+}
+#pig{
+    //background: url('twelve3.jpg') -295px -230px;
+    background: url('twelve2.jpg') -320px -260px;
+}
+#guess{
+    border: purple 3px solid;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin: auto;
+}
+
+
+#nY{
+    position: relative;
+    top: 40px;
+    animation-duration: 1s;
+    animation-name: rotateD2;
+    font-size: 50px;
+    display: inline-block;
+
+}
+@keyframes rotateD{
+  from {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes rotateD2{
+  from {
+    transform: rotate(600deg);
+    -ms-transform: rotate(600deg);
+	-webkit-transform: rotate(600deg);
+    font-size: 0px;
+  }
+
+  to {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+    font-size: 50px;
+  }
+}
